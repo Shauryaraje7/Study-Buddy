@@ -1,0 +1,33 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+  }
+  
+  .signin input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .signin button {
+    padding: 10px 20px;
+    background-color: #00c4b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signin button:hover {
+    background-color: #00a896;
+  }
+  
+  .signin a {
+    color: #00c4b4;
+    text-decoration: none;
+  }
